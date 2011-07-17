@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#
+# Extend this to get closer to requirements in
+# http://www.gnu.org/prep/standards/html_node/Configuration.html#Configuration
+#
+
+cmake .
