@@ -1,2 +1,2 @@
-add_executable (main iprange)
-target_link_libraries(main lprint)
+add_executable (reforip main.c)
+target_link_libraries(reforip iprange)

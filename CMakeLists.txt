@@ -20,5 +20,5 @@ include_directories("${PROJECT_BINARY_DIR}")
 include_directories("${PROJECT_SOURCE_DIR}/lib")
 
 
-add_subdirectory(src "${PROJECT_SOURCE_DIR}/obj")
-add_subdirectory(lib "${PROJECT_SOURCE_DIR}/obj")
+add_subdirectory(src "${PROJECT_SOURCE_DIR}/objsrc")
+add_subdirectory(lib "${PROJECT_SOURCE_DIR}/objlib")

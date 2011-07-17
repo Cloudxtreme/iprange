@@ -1,8 +1,12 @@
 # backup files
-*.~
+*~
 
-# config generated
+# config (cmake) generated
+CMakeCache.txt
+cmake_install.cmake
+libconfig.h
 Makefile
+CMakeFiles/
+obj*/
 
 # gcc generated
-*.o
