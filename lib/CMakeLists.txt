@@ -1,1 +1,1 @@
-add_library (iprange version.c)
+add_library (iprange checker.c version.c)
