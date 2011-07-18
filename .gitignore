@@ -9,4 +9,6 @@ Makefile
 CMakeFiles/
 obj*/
 
-# gcc generated
+# doxygen/cmake generated
+Doxyfile
+doxdoc/
