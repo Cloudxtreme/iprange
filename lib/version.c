@@ -11,7 +11,7 @@
  * statically declare one buffer per function in here.
  *
  */
-char buf[LEN];
+static char buf[LEN];
 
 char *iprange_version_string()
 {

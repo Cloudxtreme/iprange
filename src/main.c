@@ -13,5 +13,6 @@ int main (int argc, char *argv[])
         printf("Syntax check complained\n");
     }
 
+    iprange_test(10, 127, 1000);
     return 0;
 }

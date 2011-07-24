@@ -1,10 +1,17 @@
 /*
- *    libiprange.h:
+ * Contains functions for public access in libiprange.a and libiprange.so
  *
- *    routines in
- *    libiprange.a and libiprange.so
+ * File: libiprange.h
  */
 
-extern int iprange_is_v4syntax(const char *);
+extern void
+iprange_test(const unsigned int, const unsigned int, const unsigned int);
 
-extern char *iprange_version_string();
+extern int
+iprange_is_v4syntax(const char *);
+
+/*
+/// \return LIB_VERSION_MAJOR . LIB_VERSION_MINOR from cmake configuration
+ */
+extern char *
+iprange_version_string();
