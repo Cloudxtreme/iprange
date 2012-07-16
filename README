@@ -1,6 +1,6 @@
 iprange is a regular expression builder for IPv4 and IPv6 addresses.
 
-Version: bleeding pre-alpha prototype
+Version: bleeding pre-alpha prototype to be continued Sep 2011
 
 Features:
 - Range finder: i.e. recognize all from 224.0.0.0 to 224.0.0.255 - current work in progress...
